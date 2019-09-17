@@ -1,0 +1,20 @@
+#include<iostream>
+double conver(double n);
+using namespace std;
+int main()
+{
+    cout<<"Plese enter your number base long ";
+    double number;
+    cin >> number;
+    double con_number = conver(number);
+    cout << number
+         << " long = "
+         << con_number
+         << " ma"
+         << endl;
+    
+}
+double conver(double n)
+{
+    return n * 120;
+}
