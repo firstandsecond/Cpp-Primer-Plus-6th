@@ -1,0 +1,17 @@
+#include<iostream>
+double conver(double n);
+using namespace std;
+int main()
+{
+    cout << "Please enter a Celsius value: ";
+    double Cel;
+    cin >> Cel;
+    cout << Cel << " degrees Celsius is "
+    << conver(Cel) << " degree Fahrenheit."
+    << endl;
+}
+
+double conver(double n)
+{
+    return 1.8 * n + 32.0;
+}
