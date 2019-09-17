@@ -1,0 +1,17 @@
+#include<iostream>
+double conver(double n);
+using namespace std;
+int main()
+{
+    cout << "Enter the number of light years: ";
+    double years;
+    cin >> years;
+    cout << years << " light years = "
+    << conver(years) << " astronomical units." << endl;
+    
+}
+
+double conver(double n)
+{
+    return n * 63240;
+}
