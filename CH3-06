@@ -1,0 +1,21 @@
+#include<iostream>
+int main()
+{
+    using namespace std;
+    cout << "Enter the distance(mile): ";
+    double mil;
+    cin >> mil;
+    cout << "Enter the gasoline(gallon): ";
+    float gal;
+    cin >> gal;
+    cout <<"The velocity is " << mil / gal << " mile/gallon" <<endl;
+    
+    cout << "Enter the distance(kilometres): ";
+    double kilo_metrs;
+    cin >> kilo_metrs;
+    cout << "Enter the gasoline(litre): ";
+    float lit;
+    cin >> lit ;
+    cout <<"The oil consumption is " << lit /kilo_metrs * 100 << " litre/100 kilometres"<<endl;
+    
+}
