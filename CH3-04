@@ -1,0 +1,21 @@
+#include<iostream>
+int main()
+{
+    using namespace std;
+    const int sec_to_min = 60;
+    const int min_to_hour = 60;
+    const int hour_to_day = 24;
+    
+    cout << "Enter the nubmer of seconds: ";
+    long  long second;
+    cin >> second;
+    
+    cout << second <<" seconds = "
+                    << second / sec_to_min / min_to_hour / hour_to_day << " days "
+                    << second / sec_to_min / min_to_hour % hour_to_day << " hours "
+                    << second /sec_to_min % min_to_hour  << " minutes "
+                    << second % sec_to_min  << " seconds"
+    << endl;
+    
+    
+}
