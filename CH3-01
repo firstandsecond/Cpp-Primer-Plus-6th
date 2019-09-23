@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout << "Plsease enter your height:____\b\b\b\b ";
+    int height;
+    cin >> height;
+    const int conver = 12;
+    cout << "Your height is " << height / conver << "feet and "
+    << height % conver << "inches." << endl;
+    return 0;
+
+}
+
