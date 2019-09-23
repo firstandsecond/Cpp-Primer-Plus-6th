@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    const double height_conver = 12;
+    const double weight_conver = 2.2;
+    const double inch_conver = 0.0254;
+    
+    
+    double  height_feet,height_inch;
+    cout << "Please enter your height(feet): ";
+    cin >> height_feet;
+    cout << "Please enter your height(inch): ";
+    cin >> height_inch;
+    double  height = (height_feet * height_conver + height_inch) * inch_conver;
+    
+    double
+    weight_pound;
+    cout << "Please enter your weight(base pound): " << endl;
+    cin >> weight_pound;
+    double weight = weight_pound / weight_conver ;
+    
+    cout << "Your BMI is: " << weight / (height * height) << endl;
+    
+    
+}
