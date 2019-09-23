@@ -1,0 +1,10 @@
+#include<iostream>
+int main()
+{
+    using namespace std;
+    cout << "Enter your velocity (in Europe): ";
+    float vel;
+    cin >> vel;
+    cout << "Your velocity (in US): "
+    << 62.4 / (vel / 3.875) << endl;
+}
