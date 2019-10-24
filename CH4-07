@@ -1,0 +1,24 @@
+#include<iostream>
+#include<string>
+using namespace std;
+struct  pizza
+{
+    string name;
+    float d;
+    int weight;
+};
+
+int main()
+{
+    pizza first_pizza;
+    cout << "Enter first_pizza's name: ";
+    cin >> first_pizza.name;
+    cout << "Enter first_pizza's d: ";
+    cin >> first_pizza.d;
+    cout << "Enter first_pizza's weight: ";
+    cin >> first_pizza.weight;
+    
+    cout << "first_pizza's name: " << first_pizza.name << endl;
+    cout << "first_pizza's d: " << first_pizza.d << endl;
+    cout << "first_pizza's weight: " << first_pizza.weight << endl;
+    }
